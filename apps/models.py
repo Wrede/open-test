@@ -77,6 +77,11 @@ class AppInstance(models.Model):
     tags = TagField()
     updated_on = models.DateTimeField(auto_now=True)
 
+    class Meta:
+        permissions = [
+            ('can_access_app', 'Can access app service')
+        ]
+
     def __str__(self):
         return str(self.name)+' ({})-{}-{}-{}'.format(self.state, self.owner, self.app.name, self.project)
 

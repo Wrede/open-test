@@ -1,1 +1,1 @@
-# studio-apps (not used)
+# studio-apps (not used, moved to scaleoutsystems)

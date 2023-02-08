@@ -1,2 +1,3 @@
 # studio-apps (not used, moved to scaleoutsystems)
-Extra info
+Extra info with info
+EXTRA
